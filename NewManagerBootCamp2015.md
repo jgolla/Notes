@@ -1,9 +1,9 @@
 # New Manager Boot Camp, June 22-24, 2015
 * center for executive education UC Berkeley
 * Todos
-  [] Set up time to review slides
-  [] Proactively build relationships
-  [] Get to know you West coast style
+* [ ] Set up time to review slides
+* [ ] Proactively build relationships
+* [ ] Get to know you West coast style
 
 ## Your Leadership Style
 * Jo-Ellen Pozner
@@ -75,11 +75,9 @@
 * Actions Steps
   * Clarify the who
   * Clarify the what
-  * *Focus on the how*
-    # Non verbal signals
-    # Ask before you tell
-    # Lunches, informal interactions
-    # Options, not dictated solutions
-    # Explain the why behind the what
-
-#
+  * **Focus on the how**
+    1. Non verbal signals
+    1. Ask before you tell
+    1. Lunches, informal interactions
+    1. Options, not dictated solutions
+    1. Explain the why behind the what
