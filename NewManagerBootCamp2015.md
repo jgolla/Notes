@@ -5,8 +5,10 @@
 * [ ] Set up time to review slides
 * [ ] Proactively build relationships
 * [ ] Get to know you West coast style
-* [ ] Look up effective meetings webstie
+* [x] Look up effective meetings webstie
 * [ ] Becoming a visionary
+* [ ] Active listening books
+* [ ] Effecitve 1on1s
 
 ## Your Leadership Style
 * Jo-Ellen Pozner
@@ -92,7 +94,7 @@
 * Team building vs Team developing
 * Book: The Wisdom of Teams
 * Goals, Roles, Procedures, Relationships triangle
-* Effective meetings website?
+* [Effective Meetings](http://www.effectivemeetings.com/)
 * Consenus is understanding and accepting, not necessarily agreeing
 * Tuckman's Team Stages
   * Forming
@@ -168,5 +170,34 @@
   * there should never be a surprise in a review
   * 360 reviews
 
+## Panel Discussion
+* Sibley Bacon, Debbie Cohen, MK Shean, Jeff Vijungco
+* Motivation - stories from the front line
+* Active Listening, don't be a hippo, 1 big mouth, 2 small ears
+* Network outside of your organization
+  * 5 favs, peer group
+* PIE - Performance, Impact, Exposure
+* Learn to say no respectively
+* Top performers don't want more work, they want harder work
+* 1on1
+  * develop rapport
+  * shared doc
+  * How's you world? - puts them in the driver seat
+  * Peer 1on1
+  * start, stop, edit, continue meetings - start doing this, stop doing this, change/tweak this, continue doing this
+* Book: Thinking fast and slow, Daniel Kahneman
+* Networking - smile first, get your hand out first, dont wait; meet 3 new people when walking into an event.
 
-
+## Wrap-up & Key Takeaways
+* You - Team - Company
+* 6 leadership styles
+* Styles that need active development, visionary and coaching
+* To dev visionary, think like a driver, know the destination, know where you are headed
+* To dev coaching, be good at asking open ended questions
+* Build Rapport
+  * look for common ground
+  * become an active listener
+  * build trust
+  * be senstive to physicality
+* Team charter
+* Categorize stakeholders
