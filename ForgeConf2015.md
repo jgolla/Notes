@@ -33,6 +33,7 @@
   * Comfirmation bias
     * look for and interpret findings that support your hypothesis
     * "validate our design decisions" this is just wrong
+    * ![Validate our design](https://pbs.twimg.com/media/CQ4yOFlUAAEp4_Z.jpg)
   * The mere exposure effect
     * The more you see something, the more you will like it
     * Falling in love wih your own designs
