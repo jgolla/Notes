@@ -75,6 +75,7 @@
 ## In Defense of the Floppy Disk: The Vocabulary of the Interface
 * 3:50pm - 4:50pm Widener Lecture Room
 * [Lis Pardi](http://twitter.com/LisPardi)
+* [Slides](http://www.slideshare.net/lispardi/confab-higher-ed-2014-in-defense-of-the-floppy-disk)
 * PhillyChi
 * Icons dont work with out context
 * ![Testing](images/forge2015/floppydisc.jpeg)
