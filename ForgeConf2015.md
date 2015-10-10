@@ -13,6 +13,7 @@
 ## Native or Not? the Untapped Power of Web Apps
 * 10:20am - 11:20am Widener Lecture Room
 * [Dan Tello](http://twitter.com/dantello5)
+* [Slides](http://slides.com/dantello/native-or-not-3#/)
 * Web vs Native is not a techonlgy problem, its a focus problem
 * 60fps
 * [jankfree.org](jankfree.org)
@@ -25,6 +26,7 @@
 * [Judd Antin](http://twitter.com/juddantin)
 * When possible embedded research team, not separate
 * Know thyself, know your biases
+* ![Objectivity is a myth](https://pbs.twimg.com/media/CQ5GJ0EUsAAL02R.jpg)
 * You are not the user
 * Homophily
 * Be aware of biases
@@ -56,12 +58,12 @@
 * Product and community should intersect, results in better products
 * Work with your users to build products
 * Invite into the process
-* Let them help you build what theyll use
+* Let them help you build what they'll use
   * Dont be scare of your users!
   * Helps stem change aversion
 * Visit your users in their settings, see how they work
 * Get users to uses ASAP with their data, real tasks
-* "A prototype is worth a thousand meetings"
+* ![A prototype is worth a thousand meetings](https://pbs.twimg.com/media/CQ5Tw23WgAAYja-.jpg)
 * Etsy teams (like google groups) for early access to a feature, forum for discussion
 * Let them turn off the new version, learn from why/when/how often they turn it off
 
@@ -74,7 +76,7 @@
 * [Lis Pardi](http://twitter.com/LisPardi)
 * PhillyChi
 * Icons dont work with out context
-* ![Testing](floppydisc.jpeg)
+* ![Testing](images/forge2015/floppydisc.jpeg)
 
 ## Keynote - Design Everything
 * 4:55pm - 5:55pm Harrison Auditorium
