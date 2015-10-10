@@ -1,4 +1,5 @@
 # [Forge Conference 2015](http://forgeconf.com/)
+* October 9, 2015
 
 ## Keynote - The Age of How
 * 9:15am - 10:15am Harrison Auditorium
@@ -73,6 +74,7 @@
 * [Lis Pardi](http://twitter.com/LisPardi)
 * PhillyChi
 * Icons dont work with out context
+* ![Testing](floppydisc.jpeg)
 
 ## Keynote - Design Everything
 * 4:55pm - 5:55pm Harrison Auditorium
