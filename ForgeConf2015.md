@@ -9,6 +9,8 @@
 * It's about outcomes, not outputs
 * Diversity brings in outside thought, adds to the discussion
 * Values, take care of each other, collaborate inside and out, speak up (no silent disagreemet). do great work
+* Use design skills to design internal processes such as the on-boarding process. Do interviews, etc., just like a UX design
+* Burnout is caused by information not flowing smoothly
 
 ## Native or Not? the Untapped Power of Web Apps
 * 10:20am - 11:20am Widener Lecture Room
@@ -49,6 +51,15 @@
 * Not everything counted counts, and not everyting that counts is counted
 * Always do multimethod research to help combat bias
 * Becareful of over generalization
+ 
+## The Homepage is Dead: Designing for Content and Functionality
+* 11:25am - 12:25pm Widener Lecture Room
+* Natalie Be'er (Huge)
+* Regardless of how a user gets to a page, the navigation system should show them where they are
+* For this reason, she hates the Hamburger (because it hides navigation)
+* Assume every page is an entry page
+* The homepage should focus on the features that are used the most and the content that the homepage user wants to see
+* Don't take functionality away from the mobile version of websites
 
 ## Lunch
 * 12:30pm - 1:30pm Main Lobby
@@ -60,7 +71,7 @@
 * Work with your users to build products
 * Invite into the process
 * Let them help you build what they'll use
-  * Dont be scare of your users!
+  * Dont be scared of your users!
   * Helps stem change aversion
 * Visit your users in their settings, see how they work
 * Get users to uses ASAP with their data, real tasks
@@ -77,8 +88,10 @@
 * [Lis Pardi](http://twitter.com/LisPardi)
 * [Slides](http://www.slideshare.net/lispardi/confab-higher-ed-2014-in-defense-of-the-floppy-disk)
 * PhillyChi
-* Icons dont work with out context
+* Icons dont work without context
 * ![Testing](images/forge2015/floppydisc.jpeg)
+* We use metaphors in speech. We also use metaphors in icons
+* The hamburger icon has been around since 1981. Various contemporary studies show that it is not well understood.
 
 ## Keynote - Design Everything
 * 4:55pm - 5:55pm Harrison Auditorium
