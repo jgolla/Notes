@@ -5,7 +5,7 @@
 * [About](https://www.uie.com/jared-live/#design-opposed)
 * [Video](https://player.vimeo.com/video/138359368)
 * Are we measuring the right thing?
-* Oberservations -> Inferences -> Design Decisions
+* Observations -> Inferences -> Design Decisions
   * What -> Why -> How to improve
 * The best designs never stop at the first inference
 * Beware of silly/stupid metrics
@@ -14,15 +14,16 @@
   * bounce rate, conversion rate -> neither tells why a user did something
 * Ratios are always a bad metric, both sides of the equation can be manipulated
 * Satisfaction surveys -> Satisfaction is too low of a bar, we can do better than simply satisfied
+  * Satisfaction surveys with crazy amount of options are useless, when only three are necessary Frustrated, Satisfied, Delighted and frustrating UX ultimately has a cost to the company
 * Customer journey maps
   * watch a customer use your design, see the pains they go through, this leads to big wins
-* Useful custom metric is counting error messages. It is useful to know that errors the user is seeing to see if there is anything we can do to prevent those errors from occuring.
+* Useful custom metric is counting error messages. It is useful to know that errors the user is seeing to see if there is anything we can do to prevent those errors from occurring.
 * Custom metrics > generalized analytic metrics
-* Oberservations trump inferences, turn inferences into observations via testing
+* Observations trump inferences, turn inferences into observations via testing
 * UX needs to own analytics
 * Data science is essential for every UX team
 * Question what every metric means, what are we learning from collecting it
 * Keep metric numbers simple, forces focus
 * Design must drive metric collection, not the other way around
 * [Gallup CE11](http://www.gallup.com/businessjournal/745/constant-customer.aspx) as a customer engagement survey 
-* Conference [UX Immersion: Interations](https://uxi16.uie.com)
+* Conference [UX Immersion: Interactions](https://uxi16.uie.com)
