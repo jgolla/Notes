@@ -35,17 +35,19 @@
   * d3 can create, but we must position
 
 ## Seeing Machines Think
+* Fernanda Viégas and Martin Wattenberg
 * Neural nets, based on the human brain
 * Learn over time
 * Red/White wine machine learning
   * only can determine if its be trained
-* TensorFlow.org
+* [TensorFlow.org](http://TensorFlow.org)
 
 ## A Return to Machine Learning
-* [Twitter]kcimc
+* [Kyle McDonald](http://twitter.com/kcimc)
 
 ## Drawing on <canvas> - how computers read pixels
-* [Twitter]kosamari
+* [Mariko Kosaki](http://twitter.com/kosamari)
+* [Slides](http://kosamari.com/presentation/openvis-2016/)
 * Using canvas, getImage putImage for performing image processing
 * Creating fake instagram filters
 * Can be slow in browser
@@ -53,13 +55,15 @@
 * toDataURL v toBlob to export
   * toDataURL is expensive to handle image in Base64, href length is capped
   * toBlob need to specify compression algo
-* grafi.js
+* [grafi.js](http://grafijs.org/) - JS Image processing library
 
 ## How To Simulate The Universe, In 134 Easy Steps
-* ncase.me/ovc2016
+* [Nicky Case](http://ncase.me/) - website
+* [Twitter](https://twitter.com/ncasenmare)
+* [Slides](http://ncase.me/OVC2016/)
 * Trends show what, but not why
 * Systems thinking, the world is loopy, everything effects everything else
-* Parable of the Polygons
+* [Parable of the Polygons](http://ncase.me/polygons/)
 * In a loopy world, there is no root cause, only in linear process
 * You are not stuck in traffic, you are traffic
 * Story telling about systems (tools)
@@ -77,12 +81,12 @@
     * Parable of Polygon is agent-based
 
 ## Do you know Nothing when you see it?
-* [Twitter]AmeliaMN
+* [Amelia McNamara](http://twitter.com/AmeliaMN)
 * Statical based determining if values are significant
 
 ## SVG Beyond Mere Shapes
-* [Twitter]NadiehBremer
-* VisualCinnamon.com
+* [Nadieh Bremer](http://twitter.com/NadiehBremer)
+* [Website](http://www.visualcinnamon.com/)
 * Wanted ot create gradient legend
   * add linearGraient to defs
   * set x1, x2...
@@ -99,13 +103,14 @@
 * CSS mix-blend-mode
 
 ## Enhancing your maps and visualizations with WebGL GLSL Shaders
-* [Twitter]patriciogv
-* The book of shaders
-* mapzen.com
+* [Patricio Gonzalez Vivo](http://twitter.com/patriciogv)
+* [Slides](http://patriciogonzalezvivo.github.io/openVis16/#/)
+* [The Book of Shaders](http://patriciogonzalezvivo.com/2015/thebookofshaders/)
+* [mapzen.com](mapzen.com)
 * Used image compression to represent data
 
 ## Everything is Seasonal
-* [Twitter]zanstrong
+* [Zan Armstrong](http://twitter.com/zanstrong)
 * patterns tthat repeat over known fixed periods of time
 * when considering time series seasonality matters
 * consider the seasonality of causal factors
@@ -118,14 +123,16 @@
 * Seasonalities are different for differnt people in different places
 
 ## Building Data Visualizations for Product
-* [Twitter]sxywu
+* [Shirley Wu](http://twitter.com/sxywu)
+* [Slides](http://slides.com/shirleywu/building-data-visualizations-for-product#/)
 * Use customer data as early as possible, fake it when necessary
 * Don't pre-optimize
-* Summed up on one of her last slides, need to look up TODO
+* ![Summary](images/OpenVis2016/openvis2.jpg)
+* [Slack](https://d3js.slack.com/messages/dataviz-in-product/)
 
 ## Animation, Pacing, and Exposition
 * [Twitter]tonyhschu
-* A visual representaton of Machine Learning
+* [A Visual Introduction of Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 * Types of attention
   * Visual attention, guide the eye to the important thing
   * Short term memory
