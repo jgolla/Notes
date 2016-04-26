@@ -129,7 +129,7 @@
 * Types of attention
   * Visual attention, guide the eye to the important thing
   * Short term memory
-* ![Gain and drain attention](images/openvis2016/openvis1.jpg)
+* ![Gain and drain attention](images/OpenVis2016/openvis1.jpg)
 * Gain and drain attention
   * Surprise / Time
   * Delight / Decision
