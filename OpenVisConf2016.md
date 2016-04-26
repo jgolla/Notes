@@ -129,6 +129,7 @@
 * Types of attention
   * Visual attention, guide the eye to the important thing
   * Short term memory
+* ![Gain and drain attention](images/openvis2016/openvis1.jpg)
 * Gain and drain attention
   * Surprise / Time
   * Delight / Decision
@@ -143,3 +144,15 @@
 * !Matters Order
 * Walkthrough on how ML decision trees are created
 * Slow measured conveyance of ideas
+
+## Informing Without Alienating
+## The Charting Monster that Spawned from the Jaws of Defeat
+## Everything we know about how humans interpret graphics
+## Designing for Realtime Spacecraft Operations
+## Reactive Building Blocks: Interactive Visualizations with Vega
+## Tiny Tools
+## The Visual Uncertainty Experience
+## Untangling Tennis
+## Our Planet Seen from Space
+## Finding What to Read: Visual Text Analytics Tools and Techniques to Guide Investigation
+## Designing Virtual Reality Data Visualizations
