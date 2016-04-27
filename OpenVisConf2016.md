@@ -87,6 +87,7 @@
 ## SVG Beyond Mere Shapes
 * [Nadieh Bremer](http://twitter.com/NadiehBremer)
 * [Website](http://www.visualcinnamon.com/)
+* [Slides](http://www.visualcinnamon.com/2016/04/svg-beyond-mere-shapes.html)
 * Wanted ot create gradient legend
   * add linearGraient to defs
   * set x1, x2...
@@ -127,11 +128,12 @@
 * [Slides](http://slides.com/shirleywu/building-data-visualizations-for-product#/)
 * Use customer data as early as possible, fake it when necessary
 * Don't pre-optimize
-* ![Summary](images/OpenVis2016/openvis2.jpg)
+* ![Summary](images/OpenVis2016/openvis2.png)
 * [Slack](https://d3js.slack.com/messages/dataviz-in-product/)
 
 ## Animation, Pacing, and Exposition
-* [Twitter]tonyhschu
+* [Twitter](http://twitter.com/tonyhschu)
+* [Slides](https://docs.google.com/presentation/d/1GOSyl4-iklcO0kIBFy-31zylaLC1R3uTwxX89bWt5D0/edit#slide=id.g11e8900888_0_2_)
 * [A Visual Introduction of Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 * Types of attention
   * Visual attention, guide the eye to the important thing
@@ -153,13 +155,106 @@
 * Slow measured conveyance of ideas
 
 ## Informing Without Alienating
+* [Mona Chalabi](http://twiter.com/MonaChalabi)
+* Data is not emotionlesss
+
 ## The Charting Monster that Spawned from the Jaws of Defeat
+* [David Yanofsky](http://twitter.com/yano)
+* [Quartz](http://qz.com)
+* Chartbuilder
+* Removing d3 for DOM manipulation in favor of React
+
 ## Everything we know about how humans interpret graphics
+* [Kennedy Elliott](https://twitter.com/kennelliott)
+* 37 studies on human perception in 30 minutes
+* Data Vis, Sceience or language?
+* Imaginary 45deg line on line charts
+* People have trouble seeing anything other than trends in line graphs
+* Stevens Law
+* Delays of .5 s led to less interactivity with graphics
+* Color talk from couple years ago Rob? TODO
+
 ## Designing for Realtime Spacecraft Operations
+* [Rachel Binx](http://twitter.com/rachelbinx)
+* NASA JPL - Jet Propulsion Lab
+* Data vis for space telemetry
+* Date picker, showed calendar, day of year, week of year
+* Design vs Art, design for all, art for personal
+* Data vis is about making your data understandable, not for personal expression
+* User-centered design
+* How do you know the visualisation you built works?
+* Gumballs - renamed stop light example
+  * roll ups for particular systems
+  * redesigned showing colored bars with indicator
+  * when everything is good, thumbs up is fine, when things are bad they need the info
+* Used table data for strings to create histogram to see the candence (useful for event frames?)
+*![Table to histo](images/OpenVis2016/openvis3.jpg)
+* Lessons Learned
+  * Know thy user
+  * Visualization literacy takes time
+  * intuitive > shiny
+
 ## Reactive Building Blocks: Interactive Visualizations with Vega
+* [Arvind Satyanarayan](http://twitter.com/arvindsatya1)
+* [Vega](http://github.com/vega)
+* [Demo](http://vega.github.io/vega-editor)
+* Trouble with imperative interaction
+  * You have to maintain state
+  * redefine visual appearance in multiple locations
+  * low level details
+  * Callback hell
+* d3 brushing example
+* DimpVis Example on Vega (spec=dimpvis)
+* Wikipedia interactive vega graphics
+
 ## Tiny Tools
+* [Adam Pearce](http://twitter.com/adamrpearce)
+* 1wheel.github.io/talks/tiny-tools? https://github.com/1wheel/talks/tree/master/tiny-tools
+* Frameworks provide hi barrier for entry
+* Reusing code from one project to another is messy with frameworks
+* [d3-jetpack](https://github.com/gka/d3-jetpack) - monkey patches d3 for ease of use
+* [d3-starterkit](https://github.com/1wheel/d3-starterkit)
+* [graph-scroll](https://github.com/1wheel/graph-scroll)
+* Don't be afraid to roll your own
+* Swoopy-drag
+* [swoopyarrows](http://bizweekgraphics.com/swoopyarrows)
+
 ## The Visual Uncertainty Experience
+* [Jessica Hullman](http://twitter.com/JessicaHullman)
+* [Site](http://faculty.washington.edu/jhullman)
+* [Article](https://medium.com/@uwdata/hypothetical-outcomes-plots-experiencing-the-uncertain-b9ea60d7c740#.sfjfd8ryv)
+* Visualizations don't generally handle uncertainity
+* Uncertainity visualization: reperesenting the possibly values that a quantity can take
+* When they do, shown as box plots or error bars.
+* Static plots (box, eror bar) Raise questions, but don't answer them
+* Creating experience-able uncertainity
+   1. Generate hypothetical samples
+   1. Visualize (allow easy frame to frame comparison)
+   1. Present
+
 ## Untangling Tennis
+* [Kim Albrecht](http://twitter.com/kimay)
+* [Untangling Tennis](http://untangling-tennis.net/tool/)
+* What is success?
+  * Performance
+  * Popularity
+* [Cosmic Web](http://CosmicWeb.barbasilab.com)
+
 ## Our Planet Seen from Space
+* [Christine Waigl](http://twitter.com/chrys)
+* [EarthExplorer](http://earthexplorer.usgs.gov)
+
 ## Finding What to Read: Visual Text Analytics Tools and Techniques to Guide Investigation
+* [Christopher Collins]()
+* Linguistic Information Visualizaiton
+* Information overload through time, going back to 1684
+* Using text visualizatino to determine what to read
+  * Document collection to document to help find a doc
+* [FluxFlow](http://bit.ly/fluxflow) - Determining rumor tweets
+* The secret life of passwords - article NYT?
+  * http://vialab.science.uoit.ca/wordsinpasswords
+* DocBurst
+
 ## Designing Virtual Reality Data Visualizations
+* Ana Asnes Becker
+* Watch video - Had to leave TODO
