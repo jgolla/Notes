@@ -82,6 +82,7 @@
 
 ## Do you know Nothing when you see it?
 * [Amelia McNamara](http://twitter.com/AmeliaMN)
+* [Slides](http://www.science.smith.edu/~amcnamara/blog/conferences/2016/04/25/OpenVisConf.html)
 * Statical based determining if values are significant
 
 ## SVG Beyond Mere Shapes
@@ -107,11 +108,12 @@
 * [Patricio Gonzalez Vivo](http://twitter.com/patriciogv)
 * [Slides](http://patriciogonzalezvivo.github.io/openVis16/#/)
 * [The Book of Shaders](http://patriciogonzalezvivo.com/2015/thebookofshaders/)
-* [mapzen.com](mapzen.com)
+* [mapzen.com](http://mapzen.com)
 * Used image compression to represent data
 
 ## Everything is Seasonal
 * [Zan Armstrong](http://twitter.com/zanstrong)
+* [Slides](https://github.com/zanarmstrong/everything-is-seasonal)
 * patterns tthat repeat over known fixed periods of time
 * when considering time series seasonality matters
 * consider the seasonality of causal factors
@@ -196,6 +198,7 @@
 
 ## Reactive Building Blocks: Interactive Visualizations with Vega
 * [Arvind Satyanarayan](http://twitter.com/arvindsatya1)
+* [Slides](http://arvindsatya.com/talks/ReactiveVega-OpenVisConf2016.pdf)
 * [Vega](http://github.com/vega)
 * [Demo](http://vega.github.io/vega-editor)
 * Trouble with imperative interaction
@@ -209,7 +212,7 @@
 
 ## Tiny Tools
 * [Adam Pearce](http://twitter.com/adamrpearce)
-* 1wheel.github.io/talks/tiny-tools? https://github.com/1wheel/talks/tree/master/tiny-tools
+* [Slides](http://1wheel.github.io/talks/tiny-tools)
 * Frameworks provide hi barrier for entry
 * Reusing code from one project to another is messy with frameworks
 * [d3-jetpack](https://github.com/gka/d3-jetpack) - monkey patches d3 for ease of use
@@ -238,21 +241,21 @@
 * What is success?
   * Performance
   * Popularity
-* [Cosmic Web](http://CosmicWeb.barbasilab.com)
+* [Cosmic Web](http://cosmicweb.barabasilab.com/)
 
 ## Our Planet Seen from Space
 * [Christine Waigl](http://twitter.com/chrys)
 * [EarthExplorer](http://earthexplorer.usgs.gov)
 
 ## Finding What to Read: Visual Text Analytics Tools and Techniques to Guide Investigation
-* [Christopher Collins]()
+* Christopher Collins
 * Linguistic Information Visualizaiton
 * Information overload through time, going back to 1684
 * Using text visualizatino to determine what to read
   * Document collection to document to help find a doc
 * [FluxFlow](http://bit.ly/fluxflow) - Determining rumor tweets
 * The secret life of passwords - article NYT?
-  * http://vialab.science.uoit.ca/wordsinpasswords
+  * [Words in Passwords](http://vialab.science.uoit.ca/wordsinpasswords)
 * DocBurst
 
 ## Designing Virtual Reality Data Visualizations
