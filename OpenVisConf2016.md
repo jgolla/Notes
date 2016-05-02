@@ -168,6 +168,7 @@
 
 ## Everything we know about how humans interpret graphics
 * [Kennedy Elliott](https://twitter.com/kennelliott)
+* [Notes](https://medium.com/@kennelliott/39-studies-about-human-perception-in-30-minutes-4728f9e31a73#.9kklwwd0x)
 * 37 studies on human perception in 30 minutes
 * Data Vis, Sceience or language?
 * Imaginary 45deg line on line charts
