@@ -158,3 +158,8 @@
 * [CE11 Worksheet](https://dl.dropboxusercontent.com/u/1086584/Playbook/CE11%20Worksheet.pdf)
 * [UIE Interns](https://www.uie.com/meet-the-interns/)
 * [All you can learn](https://aycl.uie.com/)
+* [Metrics Talk](https://www.uie.com/jared-live/#design-opposed)
+
+## Books
+* [First, Break All The Rules: What the World's Greatest Managers Do Differently](https://www.amazon.com/First-Break-All-Rules-Differently/dp/1595621113)
+* [Hire with your head](https://www.amazon.com/Hire-Your-Head-Performance-Based-Hiring/dp/0470128356)
