@@ -1,6 +1,7 @@
 # [Creating a UX Strategy Playbook](https://playbook.uie.com/)
 * June 20-21, 2016
 * [Homework](https://playbook.uie.com/blog/homework-for-the-ux-strategy-playbook-workshop)
+* [Slides](https://dl.dropboxusercontent.com/u/1086584/Playbook/Creating%20a%20UX%20Strategy%20Playbook%20-%20PHL.pdf)
 
 ## Morning, Day 1: Organizational Transformation
 * [Knowledge Navigator](https://www.youtube.com/watch?v=QRH8eimU_20), Apple Video 1987
