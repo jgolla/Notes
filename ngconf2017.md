@@ -219,26 +219,37 @@
 
 ## RxJS: The Good Parts
 * 10:00 am - 10:20 am Grand Ballroom B
+* [CHRISTOPHER GOSSELIN](https://twitter.com/ConcertCoder)
+* [DANIEL FIGUEIREDO CAETANO](https://twitter.com/danfigueiredoc)
 
 ## Diving into TypeScript
 * 10:30 am - 11:30 am Grand Ballroom B
+* [DAN WAHLIN](https://twitter.com/DanWahlin)
+* [JOHN PAPA](https://twitter.com/John_Papa)
 
 ## Docker: What Every Angular Developer Should Know About It!
 * 11:30 am - 12:30 pm Grand Ballroom B
+* [DAN WAHLIN](https://twitter.com/DanWahlin)
 
 ## From Inactive to Reactive with ngrx
 * 1:00 pm - 2:00 pm Grand Ballroom B
+* [BRANDON ROBERTS](https://twitter.com/brandontroberts)
+* [MIKE RYAN](https://twitter.com/MikeRyan52)
 
-## Everything is a plugin! Mastering webpack from the inside-out.
-* 2:00 pm - 4:00 pm Grand Ballroom B
+## DIY ANGULAR COMPILER
+* 2:00 pm - 4:00 pm Grand Ballroom C
+* [URI SHAKED](https://twitter.com/UriShaked)
 
 ## Automatic Progressive Web Apps using the Angular Mobile Toolkit
 * 4:00 pm - 4:20 pm Grand Ballroom A/D
+* [MAXIM SALNIKOV](https://twitter.com/webmaxru)
 
 ## The Memory Leak Brain Drain – Workshop
 * 4:30 pm - 5:30 pm Grand Ballroom B
+* [JON BOYD](https://twitter.com/biznasapps)
 
 ## Step by Step: Improving Startup Performance with Lazy Loading in Angular
 * 5:30 pm - 6:00 pm aGrand Ballroom A/D
+* [MANFRED STEYER](https://twitter.com/ManfredSteyer)
 
 # Friday, April 7th, 2017
