@@ -1,7 +1,7 @@
 # [NG Conf 2017](https://www.ng-conf.org)
 * April 5th - 7th
 
-# Wednesday April 5th, 2017
+# Wednesday, April 5th, 2017
 
 ## Keynote
 * [STEPHEN FLUIN](https://twitter.com/stephenfluin)
@@ -35,11 +35,11 @@
 
 ## I am One with Angular and Angular is One with Me
 * [JOHN PAPA](https://twitter.com/John_Papa)
+* [Demo Code](https://github.com/johnpapa/one-with-angular)
 * Angular CLI
   * --dry-run, --skip-intstall
 * ng eject
   * learning webpack
-* [Demo Code](https://github.com/johnpapa/one-with-angular)
 
 ## Mad science with the Angular Compiler
 * [MINKO GECHEV](https://twitter.com/mgechev)
@@ -79,9 +79,9 @@
 
 ## Animations in Angular 4.0.0
 * [MATIAS NIEMELA](https://twitter.com/yearofmoo)
+* [Slides](http://yom.nu/ng-conf-2017)
 * NoopAnamations module, good for testing, calls callbacks without animations
 * New stuff animate, query, animation builder, route animations
-* [Slides](http://yom.nu/ng-conf-2017)
 
 ## Keeping the Sand Out of Your Eyes: No Sandbox, No Problem
 * [TIM EHAT](https://twitter.com/tim_ehat)
@@ -97,37 +97,148 @@
 * Bootstrap angular where you need it
 * User content can show up in unexpected places (web api posts)
 
-## Nrwl
-
 ## Thoughtful Component Design
 * [JEREMY ELBOURN](https://twitter.com/jelbourn)
-* MILES MALERBA
-*
+* [MILES MALERBA](https://twitter.com/milesmalerba)
+* [Slides](http://goo.gl/TvRLlu)
+* [Angular Material](https://material.angularjs.org/latest/)
+* Using md-* attributes to keep templates/html clean
+  * Helps screen readers as well
+* DOM Interaction
+  * User code -> Angular -> DOM
+  * There are cases for user code -> DOM
+    * Measuring, sizing, spacing
+* Angular Zone
+  * Angular's way of knowing everything that is happening with your app, even async
+  * Drives when Angular does change detection
+  * ngZone.runOutsideAngular(() => { ... })
+    * requestAnimationFrame for custom animations in code
+    * direct DOM minipulations
 
 ## Back from the past: A tale of helping others upgrade from Angular 1.x
 * [SERGIO CRUZ](https://twitter.com/hashtagserg)
-*
-
-## ng-breather (break)
-
-## Mischief Maker
+* Getting started with Angular is ot an Angular issues, it is a modering JS issues
+* Client side onboarding has become much more difficult
+* Upgrade Issues
+  * Mixing front and back end
+  * Coffee script
+  * Bower and Grunt
+* Pain Points
+  * Time and proirity
+  * Business incentive, what does the business get out of it
+  * Team Proficiency, didnt want to learn Angular from scratch again
+  * 3rd party libs
+  * Tooling
+* Steps we can take
+  * Use component based architecture
+  * Write full SPAs
+  * Use NPM
+  * Bring in Webpack
+  * Use TypeScript
 
 ## ng-STEAM
+* [JOE SKEEN](https://twitter.com/joeskeenjr)
+* STEM
+* [https://studio.code.org](https://studio.code.org)
 
 ## The Memory Leak Brain Drain
+* [JON BOYD](https://twitter.com/biznasapps)
+* Chrome dev tools
+  * Timeline view to find when, what and how
+  * Allocation Timeline
+  * Heap snapshots
+* What is causing the leak?
+* Test like a real user, long running tabs
+* Remove code
+* Build test app if you can't remove
 
 ## There and Back Again: a developer’s tale
+* [JACOB TURNER](https://twitter.com/JIsraelTurner)
+* Skills > Tools
+* Practice over language
 
 ## The Little Tool That Dreams Big
-
-## ag-grid
+* [HANS LARSEN](https://twitter.com/hanslatwork)
+* CLI Team
+* Dev mode -> Lazy route -> typescript -> bundling -> browser
+* Prod mode -> Code gen -> Lazy route -> typescript -> bundling -> browser
+* Lazy Routes
+  * Looks for RouterModule and grabs loadChildren
+  * Bundles eager and lazy 0.bundle.js and 1.bundle.js respectively
+* Refactoring Code
+  * For JIT, change template and style loading to require() calls that webpack understand
+  * AOT compiling, removes decorators, adds static ctorParameters for dependency injection (services)
+* Bootstrapping
+  * Refactors from JIT adding to App to a factory module
+* ng eject
+  * For when you have out grown the CLI
+  * Generates webpack config
+  * ng eject --aot
+* CLI 1.0.0 final released
+* CLI 1.x
+  * Size - reducing bundle size 20%
+  * JIT vs AOT - so can run AOT in dev
+  * Error messaging
+* CLI 2.0?
+  * Plugins
+  * Libraries that can be reused by other tools
+  * Custom templates, builds, test frameworks
+  * Same small interface
 
 ## The Angular Compiler 4.0
+* [TOBIAS BOSCH](https://twitter.com/tbosch1009)
+* Compiler updates 2 to 4
+* AST - Abstract syntax tree
+* Whats next?
+  * AOT by default
+  * Watch mode --watch
+  * Error messages
+  * Type checking in templates
+  * More flexible metadata
+  * Remove .ngfactory.ts files
 
 ## Reactive Programming with RxJS: A Beginner’s Perspective
-
-## Wakanda
+* [BEN LESH](https://twitter.com/BenLesh)
+* [TRACY LEE](https://twitter.com/ladyleet)
+* There are many ways to create observables, all use the constructor under the covers
+  * Observeable of and from are useful helper functions
+* Include just what you need from rxjs, import { Subject } from 'rxjs/Subject';
+* [Docs](http://reactivex.io/rxjs/) have notes on how to choose the right operators
+* switchMap, share operator
+* Web Speech API
+* GitHub Repo from Demo
 
 ## How to Scratch an Itch
+* [JUSTIN SEARLS](https://twitter.com/searls)
+* Creativity talk (funny)
+* [td](http://testdouble.com)
+* [testdoubles.js](https://www.npmjs.com/package/testdouble)
+* Emoruby, built for fun
 
-## ng-party
+# Thursday, April 6th, 2017
+
+## RxJS: The Good Parts
+* 10:00 am - 10:20 am Grand Ballroom B
+
+## Diving into TypeScript
+* 10:30 am - 11:30 am Grand Ballroom B
+
+## Docker: What Every Angular Developer Should Know About It!
+* 11:30 am - 12:30 pm Grand Ballroom B
+
+## From Inactive to Reactive with ngrx
+* 1:00 pm - 2:00 pm Grand Ballroom B
+
+## Everything is a plugin! Mastering webpack from the inside-out.
+* 2:00 pm - 4:00 pm Grand Ballroom B
+
+## Automatic Progressive Web Apps using the Angular Mobile Toolkit
+* 4:00 pm - 4:20 pm Grand Ballroom A/D
+
+## The Memory Leak Brain Drain – Workshop
+* 4:30 pm - 5:30 pm Grand Ballroom B
+
+## Step by Step: Improving Startup Performance with Lazy Loading in Angular
+* 5:30 pm - 6:00 pm aGrand Ballroom A/D
+
+# Friday, April 7th, 2017
