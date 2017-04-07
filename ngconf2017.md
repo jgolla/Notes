@@ -1,3 +1,5 @@
+![NGConf](images/ngconf2017/logo.png)
+
 # [NG Conf 2017](https://www.ng-conf.org)
 * April 5th - 7th
 
@@ -58,6 +60,7 @@
 
 ## Module vs Module
 * [DEBORAH KURATA](https://twitter.com/DeborahKurata)
+* [Slides](https://t.co/igMGVQeATK)
 * ES2015 modules vs Angular Modules
 * ES2015 module is a code file, export or import something, micro
 * Angular Modules, macro, cohesive blocks of functionaliy
@@ -386,32 +389,94 @@
 ## Keynote Day 3
 * [BRAD GREEN](https://twitter.com/bradlygreen)
 * [ROB WORMALD](https://twitter.com/robwormald)
+* [Open Source](http://opensource.google.com)
+* Benefits of Open source
+  * credit (tech leader)
+  * tools (ides)
+  * training (use egghead.io)
+  * hiring
+  * quality (additional use cases)
+* Using Closure, typed based version of JS for 10 years
+* TypeScript benefits
+  * inline types
+  * fast recompile
+  * decorators
+  * closure compatible
+  * ide support
+  * automate BUILD files
+  * atuomated conversion
+  * big community
+* [Bazel](http://Bazel.build) - rather than CLI, didn't exist
+  * ABC - Angular with Bazel and Closure
+* "Use data, not opinions, to drive your decisions" - Google
+* DoubleClick study - stats on how long users will wait before abandoning
+* @angular/platform-server - Universal
+  * Interactive apps faster with app shell
+  * Using app shell to render the chrome at build time. Static content rendered on the server
+* App Shell + Service Worker allows caching of the shell
+* AMP Pages for content first (news) sites
+  * Set of rules for limiting what sites can use and show
+  * Shows up on google.com search carousel
+* AMP + PWA (progressive web app)
+  * Instant first paint
+  * Install service worker in background
+  * Click through app
+  * Instant interactivity (comments)
 
 ## Angular Router Authentication & Authorization – REAL LIVE LIVE LIVE LIVE LIVE DEMO
 * [SHAI REZNIK](https://twitter.com/hirez_io)
+* [Code](https://github.com/hirezio/the-princess-guards)
 
 ## Upgrading Enterprise Angular Applications
 * [VICTOR SAVKIN](https://twitter.com/victorsavkin)
+* NgUpgrade for mixing AngularJS and Angular
+* Upgrade Shell, make top level Angular application with the rest remaining AngularJS
+* Vertical Slicing, upgrade a full route path (deep), can lead to duplicate AngularJS and Angular components
+* Horizontal slicing, bottom up
+* Lazy load AngularJS parts
+* [Site](https://vsavkin.com/migrating-angular-1-applications-to-angular-2-in-5-simple-steps-40621800a25b)
 
 ## Building EmotiNg: The Real-Time Cross-Platform Service You’ve Always Wanted 👌
 * [JEN LOOPER](https://twitter.com/jenlooper)
 * [TARA MANICSIC](https://twitter.com/Tzmanics)
 * [TJ VANTOLL](https://twitter.com/tjvantoll)
+* [EmotiNG](https://emoting.me/)
+* [NativeScript](http://www.nativescript.org) for native mobile app, tns
 
 ## Using the Angular Template Language Service
 * [CHUCK JAZDZEWSKI](https://twitter.com/chuckjaz)
+* VS Code addon for helping with Angular
+* Autocompletion in code and templates, Tooltips, Navigate in (F12)
+* Supported in WebStorm as well
 
 ## Angular Form Validation
 * [KARA ERICKSON](https://twitter.com/karaforthewin)
+* Coming feature, custom validation chaining
+  * allows pushing from the server for live form validation
 
 ## Breaking The Eyes
 * [URI SHAKED](https://twitter.com/UriShaked)
+* Accessibility
+* Use tabindex, role, etc
+* Test your app as a blind person, blur it all
+* [Code](https://github.com/urish/breaking-the-eyes)
 
 ## Super TypeScript II Turbo – FP Remix
 * [SEAN MAY](https://twitter.com/seanjmay)
+* Strategy Guide to functional programming in TypeScript
+* Pure functions
+* Higher order functions, returns a functions, takes a function
+* Map/Filter
+* Combos - combine funcations as a pipeline for data
+  * Composition g(f(x))
+* Mapping is not about loops, but about going type A to type B
+* Readonly<T>, Pick, Record
 
 ## Reducing package size and complexity with NgModule
-* JAMES DANIELS
+* [JAMES DANIELS](https://twitter.com/jamesuriah)
+* Firebase and AngularFire based talk
+* AngularFire pushes values written to the db to the clients through persistent socket
+* AngularFire2 all observable based
 
 ## Addicted to AngularJS?
 * [PETE BACON DARWIN](https://twitter.com/petebd)
