@@ -221,35 +221,172 @@
 * 10:00 am - 10:20 am Grand Ballroom B
 * [CHRISTOPHER GOSSELIN](https://twitter.com/ConcertCoder)
 * [DANIEL FIGUEIREDO CAETANO](https://twitter.com/danfigueiredoc)
+* [Slides](https://github.com/danielfigueiredo/rxjs-goodparts)
+* Common Operators
+  * Creating .of and .from
+  * filter, map, reduce, take (same as array methods)
+  * debounce, throttle
+  * combining observables, switchMap, mergemMap, zip, combineLatest
+  * utils: .toArray, share
+  * errors: retry, catch, onErrorResumeNext, finally (always called vs complete)
+* Performance RxJS vs Array
+  * Benchmarking shows array ops slower then RxJS
+  * Funnel idea, each RxJS is done for each number once. Array is iterated over each time.
+
+## Turbocharge Your Angular Testing Workflow
+* VICTOR MEJIA
+* [Slides](https://github.com/victormejia/ngconf2017-test-demo)
+* Wallaby.js - live updates of testing during development
+* Arrange tests, mock services, enforce coverage thresholds
+* husky for enforcing pre-commit and pre-push npm scripts
 
 ## Diving into TypeScript
 * 10:30 am - 11:30 am Grand Ballroom B
 * [DAN WAHLIN](https://twitter.com/DanWahlin)
 * [JOHN PAPA](https://twitter.com/John_Papa)
+* [Slides](https://codewithdan.me/ts-es2015-in60)
+* [Papa Website](https://johnpapa.net)
+* [Wahlin Website](https://blog.codewithdan.com)
+* tsc - sourceMap for debugging ts
+* Demo - [typescript playground](https://www.typescript.org/play)
+* public keyword in constructor makes default property on the class (can use private too)
+* tsc doesn't generate any JavaScript for Interface
 
 ## Docker: What Every Angular Developer Should Know About It!
 * 11:30 am - 12:30 pm Grand Ballroom B
 * [DAN WAHLIN](https://twitter.com/DanWahlin)
+* [Slides](https://codewithdan.me/angular-docker)
+* nginx to host ng app
+* Docker
+  * simplify building, shipping, running apps
+  * provides shipping container system for code
+  * runs on linux or windows server
+* Images and Containers
+  * [Docker Hub](https://hub.docker.com)
+  * Container is the run time version of the image; image is the blueprint
+* Containers are not VMs
+  * Not running full blown Guest OSes in the the container
+* Docker CE (free version)
+* Getting Started
+  * docker pull nginx:alipine
+  * docker run -d -p 8080:80 nginx:alpine
+  * docker ps -a
+  * docker stop c2
+  * docker rm c2
+* Angular
+  * ng new project_name
+  * ng build // create dist folder with AoT
+  * docker run -d -p 8080:80 -v $(pwd):/usr/share/nginx/html nginx:alpine
+* docker build with docker file to create a custom image
+* docker compose to orchestrate multiple images, rather than docker rux X times
 
 ## From Inactive to Reactive with ngrx
 * 1:00 pm - 2:00 pm Grand Ballroom B
 * [BRANDON ROBERTS](https://twitter.com/brandontroberts)
 * [MIKE RYAN](https://twitter.com/MikeRyan52)
+* [Code](https://github.com/CodeSequence/ngrx-workshop)
+* ngrx Effects - beware of side effects HTTP, timer, etc
+  * ofType operator
+  * wraps long running side effect operations
+  * BookEffects from demo
+  * removes responsiblity from the component
+* Improve change detection performance
+  * changed detection strategy on push
+* ngrx store-devtools
+  * interacts with redux devtools extension
+  * dont want this on production, performance hit, instrumentOnlyWithExtension
 
 ## DIY ANGULAR COMPILER
 * 2:00 pm - 4:00 pm Grand Ballroom C
 * [URI SHAKED](https://twitter.com/UriShaked)
+* [Slides](https://goo.gl/6qlZIY)
+* Shrink for speed, inside the bundle, the ng4 compiler
+* [source-map-explorer](https://www.npmjs.com/package/source-map-explorer) shows relative percentages of modules that make up the app
+* ng build -prod --sourcemaps
+  * 3G download went from 10+s to 2s
+* Remove Forms and HTTP module (not used in this case)
+* Compiler converts HTML template to optimized TypeScript code
+  * Helps devs with errors/line numbers
+  * Tooling - Language services (autocomplete for templates)
+  * Predictability (abstracts out HTML rendering difference) and case-sensivity (browser always shows in upper case, disregards the developers intent)
+  * server-side rendering - universal
+* package.json, add script "compile": "ngc"
+* app.component.ngfactory.ts - compiled version of app.component.html
+* app.component.css.shim.ngstyle.ts - compiles CSS to TS with specific selector
+  * Simulated shadow DOM
+* [Source](./ngconf-demo/)
+* Know your bundles; know what you are shipping
 
 ## Automatic Progressive Web Apps using the Angular Mobile Toolkit
 * 4:00 pm - 4:20 pm Grand Ballroom A/D
 * [MAXIM SALNIKOV](https://twitter.com/webmaxru)
+* [Slides](http://slides.com/webmax/pwa-ng-conf#/)
+* 10 Characteristics
+  * Connectivity independent, service worker API
+  * App shell architecture (offline experience)
+  * Re-engagable, Push API and Notifications API
+* [Mobile Toolkit](https://mobile.angular.io/)
+* NPM Packages
+  * @angular/app-shell
+  * @angular/service-worker
+    * Angular Service worker (ngsw)
+    * /bundles, /build, /companion, /worker & /plugins
+    * only works in prod, ng build --prod
+    * ngsw-manifest.json - static content caching
 
 ## The Memory Leak Brain Drain – Workshop
 * 4:30 pm - 5:30 pm Grand Ballroom B
-* [JON BOYD](https://twitter.com/biznasapps)
+* [JON BOYD](https://github.com/unbreakabler)
+* [Slides](http://www.slideshare.net/biznasapps/ngconf2017-memory-leak-brain-drain-1-hour-talk)
+* [Talk](https://github.com/Unbreakabler/ng-conf-memory-leaks)
+* Memory bloat, Frequent GC, Memory Leaks
+* No the user, how long are they using the app, how fast is it leaking
+* Steps to find a leak
+  * Timeline tool - start recording, run GC (trash can), do the app thing, GC again
+    * memory graph
+    * use incongito mode to prevent other extensions from interfering
+    * start of the graph should be roughly equal to the end of the graph, no leak
+* Each browser implements GC slightly different
+  * May have to use a different browser to find a leak
+  * Two GC cycle, minor and major, young generation and old generation
+    * Minor is fast, mark and sweep
+    * Major is slow
+* Single threaded browser makes GC super important (jankiness)
+* Likely culprits
+  * detached DOM trees
+  * long lived observables (always unsubscribe)
+  * Console API - should be turned off in production
+  * Componets that behave like leaks - unbounded list
+* Normal use or memory leak
+  * Profiles:
+    * allocaiton timeline
+      * blue bars shows unfreed memory
+    * heap snapshots
+      * take a snapshot, do the thing, take a snapshot
+      * compare between snapshots
 
 ## Step by Step: Improving Startup Performance with Lazy Loading in Angular
-* 5:30 pm - 6:00 pm aGrand Ballroom A/D
+* 5:30 pm - 6:00 pm Grand Ballroom A/D
 * [MANFRED STEYER](https://twitter.com/ManfredSteyer)
+* [Slides](https://speakerdeck.com/manfredsteyer/improving-start-up-performance-with-lazy-loading-in-angular-3)
+* [Samples](https://github.com/manfredsteyer/lazy-loading-ng-conf)
+* Lazy Loading
+* App Module -> Feature Modules 1..n -> Shared Modules 1..n
+* loadChildren in Routes
+* Angular CLI helps the heavy bundling
+* Lazy loading just postpones the work, but better start up performance, slight delay on run time
+* Preloading helps with the delay
+  * Modules that will likely to be needed are loaded imediately after the startup
+  * register preloading strategy
+* For shared modules, can use shared service, one with providers and one without
+  * forRoot pattern
+  softwarearchitekt.at
 
 # Friday, April 7th, 2017
+
+## Keynote Day 3
+* [BRAD GREEN](https://twitter.com/bradlygreen)
+* [ROB WORMALD](https://twitter.com/robwormald)
+
+## Angular Router Authentication & Authorization – REAL LIVE LIVE LIVE LIVE LIVE DEMO
+* [SHAI REZNIK](https://twitter.com/hirez_io)
