@@ -2,6 +2,7 @@
 
 # [NG Conf 2017](https://www.ng-conf.org)
 * April 5th - 7th
+* [All Slides](https://github.com/angular-pakistan/ng-conf-2017)
 
 # Wednesday, April 5th, 2017
 
@@ -481,27 +482,97 @@
 ## Addicted to AngularJS?
 * [PETE BACON DARWIN](https://twitter.com/petebd)
 * [GEORGE KALPAKAS](https://twitter.com/gkalpakas)
+* ngUpgrade
+* [Example](https://github.com/angular-upgrade-examples/todo-app)
+* Steps
+  * Bootstrap a hybrid app
+  * Downgrade components - Making Angular component available to AngularJS, downgradeComponent
+  * Downgrade services - downgradeInjectable
+  * Upgrade components - Making AngularJS available to Angular
+  * Upgrade services
 
 ## Angular Pre-Rendering for SEO, Speed, and Happy Users
 * [JEFF CROSS](https://twitter.com/jeffbcross)
+* [nrwl.io](http://nrwl.io)
+* [Slides]()
+* Rendering some or all of an app before sending to the browser
+* DoubleClick The need for mobile speed
+* Priorities: Fast loading, Scrappable, Crawable
+* Pre-rendering allows for sooner first meaningful paint for the end user
+* Scrappable - social sharing (twitter, fb) prefer meta tags, cononical URLs, don't run JS
+* Crawlers - title, meta description, cononical URLs, page content; will run JS, but recommend pre-rendering
+* [SEO Blog series](http://nrwl.io/seo)
+* Prerendering can be done in build script with platform-server
+* Prerendering process
+  * Render
+    * Rendering at build time is most performant, but least dynamic
+    * How much content do I have to render?
+    * Content freshness requirement
+    * Frequency of deployments, long builds
+  * Server
+  * Bootstrap and Swap
+    * Static content is rendered, dynamic content is run on the client for rendering
+  * Replay
+    * What happens if users interact with prerendered page?
+      * Not allow interaction, Google docs does this.
+      * User preboot.js, saves and replays the interactions on the prerendered pages
 
 ## Giving Bootstrap the Boot
 * [ALYSSA NICOLL](https://twitter.com/AlyssaNicoll)
+* [CSS Tricks](https://css-tricks.com/)
+* Removing bootstrap one component at a time
 
 ## Packaging Angular
 * [JASON ADEN]()
+* Geared towards library authors
+* AOT - type definitions, metadatafiles
+* tsconfig.json - TS uses compilerOptions, NGC uses angularCompilerOptions
+  * angularCompilerOptions - strictMetadataEmit, skipTemplateCodegen (for publishing libraries)
+* Optimization stratey
+  * Publish fewer ES modules, can use tool called Rollup
+    * Flat ECMAScript modules
+  * Inline templates and styles
+  * [Cost of Small Modules](https://nolanlawson.com/2016/08/15/the-cost-of-small-modules/)
+* "Kitchen sink" modules export everything, breaks tree shaking. NgModule per component
+* Advacned optimizations
+  * Ship ES2015 and es5
+* [Example](https://github.com/jasonaden/simple-ui-lib)
 
 ## Do More with Less
 * [DOGUHAN ULUCA](https://twitter.com/duluca)
+* Think, wait, fast
+* Think
+  * resist urge to use something new, read the docs
+* [TheJavaScriptPromise.com](http://thejavascriptpromise.com/)
+* [Slides](https://www.dropbox.com/s/iyaa468j035jm77/do-more-with-less-js.pdf?dl=0)
 
 ## Create and Attend Meetups
 * [KEN SNYDER](https://twitter.com/kencoder)
+* Running Meetups
+  * Same time and place
+  * Food
+  * Interesting topics
+  * Hands on stuff
+  * Lighting rounds
+* Attend them!
 
 ## ngGirls Just Want to Have Fun
 * [SHMUELA JACOBS](https://twitter.com/ShmuelaJ)
 
 ## Firebase and Google Cloud Functions: Serverless Peanut Butter and Jelly
 * [BRET MCGOWEN](https://twitter.com/bretmcg)
+* Firebase real time database demo
+* Firebase free tier
+* [Code lab](http://bit.ly/ngconf-functions)
 
 ## Best Practices
 * [STEPHEN FLUIN](https://twitter.com/stephenfluin)
+* [Style Guide](https://angular.io/styleguide)
+* Smaller bundles
+  * source-map-explorer
+* Use AOT
+* Stay up to date
+* Import carefully, rxjs example
+* Other libraries, if a library is large look for smaller imports
+* Lazy loading
+* Polyfill responsibily
