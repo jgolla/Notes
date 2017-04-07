@@ -380,7 +380,6 @@
   * register preloading strategy
 * For shared modules, can use shared service, one with providers and one without
   * forRoot pattern
-  softwarearchitekt.at
 
 # Friday, April 7th, 2017
 
@@ -390,3 +389,54 @@
 
 ## Angular Router Authentication & Authorization – REAL LIVE LIVE LIVE LIVE LIVE DEMO
 * [SHAI REZNIK](https://twitter.com/hirez_io)
+
+## Upgrading Enterprise Angular Applications
+* [VICTOR SAVKIN](https://twitter.com/victorsavkin)
+
+## Building EmotiNg: The Real-Time Cross-Platform Service You’ve Always Wanted 👌
+* [JEN LOOPER](https://twitter.com/jenlooper)
+* [TARA MANICSIC](https://twitter.com/Tzmanics)
+* [TJ VANTOLL](https://twitter.com/tjvantoll)
+
+## Using the Angular Template Language Service
+* [CHUCK JAZDZEWSKI](https://twitter.com/chuckjaz)
+
+## Angular Form Validation
+* [KARA ERICKSON](https://twitter.com/karaforthewin)
+
+## Breaking The Eyes
+* [URI SHAKED](https://twitter.com/UriShaked)
+
+## Super TypeScript II Turbo – FP Remix
+* [SEAN MAY](https://twitter.com/seanjmay)
+
+## Reducing package size and complexity with NgModule
+* JAMES DANIELS
+
+## Addicted to AngularJS?
+* [PETE BACON DARWIN](https://twitter.com/petebd)
+* [GEORGE KALPAKAS](https://twitter.com/gkalpakas)
+
+## Angular Pre-Rendering for SEO, Speed, and Happy Users
+* [JEFF CROSS](https://twitter.com/jeffbcross)
+
+## Giving Bootstrap the Boot
+* [ALYSSA NICOLL](https://twitter.com/AlyssaNicoll)
+
+## Packaging Angular
+* [JASON ADEN]()
+
+## Do More with Less
+* [DOGUHAN ULUCA](https://twitter.com/duluca)
+
+## Create and Attend Meetups
+* [KEN SNYDER](https://twitter.com/kencoder)
+
+## ngGirls Just Want to Have Fun
+* [SHMUELA JACOBS](https://twitter.com/ShmuelaJ)
+
+## Firebase and Google Cloud Functions: Serverless Peanut Butter and Jelly
+* [BRET MCGOWEN](https://twitter.com/bretmcg)
+
+## Best Practices
+* [STEPHEN FLUIN](https://twitter.com/stephenfluin)
